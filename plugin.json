@@ -1,0 +1,28 @@
+{
+  "pluginName": "实时投资收益查看",
+  "author": "licxisky",
+  "description": "查看投资实时收益",
+  "preload": "preload.js",
+  "version": "0.0.1",
+  "logo": "logo.jpeg",
+  "features": [
+    {
+      "code": "investment",
+      "explain": "实时查看投资收益",
+      "icon": "logo.png",
+      "cmds": [
+        "investment",
+        "投资"
+      ]
+    },
+    {
+      "code": "investment_add",
+      "explain": "添加我的投资",
+      "icon": "add.png",
+      "cmds": [
+        "添加我的投资",
+        "继续添加我的投资"
+      ]
+    }
+  ]
+}
